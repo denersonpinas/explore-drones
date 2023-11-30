@@ -1,0 +1,34 @@
+.item {
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+    transition: all ease-out 300ms;
+
+    &__text {
+        width: 100%;
+        padding: 1rem;
+
+        /* Subtitle */
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+
+    &:hover {
+        background-color: #D4FE75;
+        color: #242424;
+    }
+
+    @media (min-width: 1200px) {
+        width: auto;
+        color: #242424;
+
+        &:hover {
+            background-color: #242424;
+            color: #D4FE75;
+        }
+    }
+}

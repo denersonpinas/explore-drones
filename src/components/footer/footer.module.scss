@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #e7e7e7;
+    padding: 1rem;
+
+    .copywhiter {
+        /* Subtitle */
+        color: #242424;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+}

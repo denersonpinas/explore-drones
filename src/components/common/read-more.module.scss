@@ -1,0 +1,24 @@
+.read-more {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 9999px;
+    background-color: #D4FE75;
+    transition: all ease-out 300ms;
+
+    /* Subtitle */
+    color: #242424;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+
+    &:hover {
+        background-color: #c9f367;
+    }
+}
